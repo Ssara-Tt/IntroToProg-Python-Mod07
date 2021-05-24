@@ -81,10 +81,8 @@ def menu_choice():
 ```
 Listing 5: “menu_choice” Function
 
-The result of the user entering a value other than a number as their menu choice can be seen in Figure 1: ValueError.
-```
-
-```
+The result of the user entering a value other than a number as their menu choice can be seen in Figure 1: ValueError.  
+![Figure 1: ValueError](Figure1_ValueError.png "Figure 1: ValueError")  
 Figure 1: ValueError
 
 ### Main Body of Script
@@ -113,47 +111,33 @@ while True:
 ```
 Listing 6: Main Body
 
-The fist menu choice was to allow the user to add a new item to the inventory. No functions were used in this section since the needed code was relatively simple. The results of running this section in PyCharm can be seen below in Figure 2: PyCharm – Choice 1.
-```
-
-```
+The fist menu choice was to allow the user to add a new item to the inventory. No functions were used in this section since the needed code was relatively simple. The results of running this section in PyCharm can be seen below in Figure 2: PyCharm – Choice 1.  
+![Figure 2: PyCharm – Choice 1](Figure2_Choice1.png "Figure 2: PyCharm – Choice 1")  
 Figure 2: PyCharm – Choice 1
 
-The second menu choice was to show the items that were currently saved in the inventory. The item that was added, “Book”, can be seen now in the inventory. The results of running this section in PyCharm can be seen below in Figure 3: PyCharm – Choice 2.
-```
-
-```
+The second menu choice was to show the items that were currently saved in the inventory. The item that was added, “Book”, can be seen now in the inventory. The results of running this section in PyCharm can be seen below in Figure 3: PyCharm – Choice 2.  
+![Figure 3: PyCharm – Choice 2](Figure3_Choice2.png "Figure 3: PyCharm – Choice 2")  
 Figure 3: PyCharm – Choice 2
 
-The third menu choice was to allow the user to pickle the inventory data and save it to a binary file. It used the function “pickle_and_write_data” perform the necessary commands previously described. The results of running this section in PyCharm can be seen below in Figure 4: PyCharm – Choice 3.
-```
-
-```
+The third menu choice was to allow the user to pickle the inventory data and save it to a binary file. It used the function “pickle_and_write_data” perform the necessary commands previously described. The results of running this section in PyCharm can be seen below in Figure 4: PyCharm – Choice 3.  
+![Figure 4: PyCharm – Choice 3](Figure4_Choice3.png "Figure 4: PyCharm – Choice 3")  
 Figure 4: PyCharm – Choice 3
 
-The fourth menu choice was to allow the un-pickle and show the data that was saved to the file. It used the functions “unpickle_and_read_data” to load the data from the file and un-pickle it so that the data could be seen and read by the user. The results of running this section in PyCharm can be seen below in Figure 5: PyCharm – Choice 4.
-```
-
-```
+The fourth menu choice was to allow the un-pickle and show the data that was saved to the file. It used the functions “unpickle_and_read_data” to load the data from the file and un-pickle it so that the data could be seen and read by the user. The results of running this section in PyCharm can be seen below in Figure 5: PyCharm – Choice 4.  
+![Figure 5: PyCharm – Choice 4](Figure5_Choice4.png "Figure 5: PyCharm – Choice 4")  
 Figure 5: PyCharm – Choice 4
 
-The fifth and last menu choice was to allow the user to exit the program. No functions were required for this section, only a “break” command. The results of running this section in PyCharm can be seen below in Figure 6: PyCharm – Choice 5.
-```
-
-```
+The fifth and last menu choice was to allow the user to exit the program. No functions were required for this section, only a “break” command. The results of running this section in PyCharm can be seen below in Figure 6: PyCharm – Choice 5.  
+![Figure 6: PyCharm – Choice 5](Figure6_Choice5.png "Figure 6: PyCharm – Choice 5")  
 Figure 6: PyCharm – Choice 5
 
 ### Test
-Since it had been verified that the script worked when running it in PyCharm, a test was performed to verify that it also worked in the Command Window. Figure 7: Command Window Running Script show the script being tested with the Command Window.
-```
-
-```
+Since it had been verified that the script worked when running it in PyCharm, a test was performed to verify that it also worked in the Command Window. Figure 7: Command Window Running Script show the script being tested with the Command Window.  
+![Figure 7: Command Window](Figure7_CommandWindow.png "Figure 7: Command Window")  
 Figure 7: Command Window
 
-The resulting pickled file can also be seen in Figure 8 Pickled File.
-```
-
-```
+The resulting pickled file can also be seen in Figure 8 Pickled File.  
+![Figure 8 Pickled File](Figure8_PickledFile.png "Figure 8 Pickled File")  
 Figure 8 Pickled File
 
 ## Summary
